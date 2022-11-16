@@ -1,0 +1,11 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.app__image {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
