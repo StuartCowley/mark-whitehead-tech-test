@@ -31,6 +31,8 @@ function Search(props) {
   );
 }
 
-Search.propTypes = {};
+Search.propTypes = {
+  setSearchResults: PropTypes.func,
+};
 
 export default Search;
