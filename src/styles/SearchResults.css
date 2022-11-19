@@ -1,0 +1,21 @@
+.search-results__outer-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.search-results__moon {
+    margin: auto;
+    width: 30%;
+}
+
+.card-image {
+aspect-ratio: auto;
+width: 100%;
+}
+
+.search-results__no-results {
+    margin: auto;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/search.css';
 import getImages from '../requests/getImages';
+import PropTypes from 'prop-types';
 
 function Search(props) {
   const { setSearchResults } = props;
@@ -13,19 +14,23 @@ function Search(props) {
 
   return (
     <>
-      <form className="search-form" onSubmit={handleSubmit}>
-        <input
-          placeholder="Choose your planet!"
-          onChange={(e) => setValue(e.target.value)}
-          className="search-input"
-          type="text"
-        />
-        <button className="search-btn" type="submit">
-          Go!
-        </button>
-      </form>
+      <div className="search-form__outer-div">
+        <form className="search-form" onSubmit={handleSubmit}>
+          <input
+            placeholder="Choose your planet!"
+            onChange={(e) => setValue(e.target.value)}
+            className="search-input"
+            type="text"
+          />
+          <button className="search-btn" type="submit">
+            Go!
+          </button>
+        </form>
+      </div>
     </>
   );
 }
+
+Search.propTypes = {};
 
 export default Search;

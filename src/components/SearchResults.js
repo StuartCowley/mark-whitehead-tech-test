@@ -1,18 +1,21 @@
 import React from 'react';
 import '../styles/SearchResults.css';
 
-function SearchResults() {
-  return (
-    <>
-      <div className="search-results__moon">
-        <img
-          className="card-image"
-          src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-          alt="moon"
-        />
+function SearchResults(props) {
+  const { searchResults } = props;
+
+  if (!searchResults.length) {
+    return <p className="search-results__no-results">Nothing to see here!</p>;
+  } else
+    return (
+      <div className="search-results__outer-div">
+        {searchResults.map((image) => (
+          <div className="search-results__moon">
+            <img className="card-image" src={image} alt="spaceImage" />
+          </div>
+        ))}
       </div>
-    </>
-  );
+    );
 }
 
 export default SearchResults;
