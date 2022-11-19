@@ -4,7 +4,7 @@ import Search from '../components/search';
 import SearchResults from './SearchResults';
 
 function App() {
-  const [searchResults, setSearchResults] = useState();
+  const [searchResults, setSearchResults] = useState([]);
   return (
     <div className="app">
       <img
