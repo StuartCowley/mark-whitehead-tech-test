@@ -16,7 +16,7 @@
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a> -->
     ·
-    <a href="https://github.com/MaJaWh/weather-app">Report Bug</a>
+    <a href="https://github.com/MaJaWh/tech-test">Report Bug</a>
     ·
     <!-- <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p> -->
@@ -29,7 +29,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Packages and Depandancies">Packages and Dependancies</a></li>
       </ul>
     </li>
     <li>
@@ -39,10 +39,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <!-- <li><a href="#roadmap">Roadmap</a></li> -->
-    <!-- <li><a href="#contributing">Contributing</a></li> -->
-    <!-- <li><a href="#license">License</a></li> -->
+    <li><a href="#usage">Usage</a></li>\
+    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -51,44 +49,25 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-  This project was initially due to take us 2 weeks and would kick off the front end module of the Manchester Codes Track. It has shown us the difference between HTML and JSX, explained and put into practice the difference between state and props, how to handle events, make requests to the server using Axios and taught us how to handle errors in Javascript.
-  On top of all this we have developed the app using TDD. We have used Jest as the tesing platform and the React Testing Library.
 
-  Concepts used during the projects were React, JSX, Props, Props Validation, State, Stateful Components, Stateless(presentational) Components, React Hooks, React Testing Library, Request and Response and Error Handling.
-.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+### Testing Utilities Used
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Packages and Dependancies
 
 - [![Java-script][javascript-shield]][javascript-url]
 - [![Node.js][node-shield]][node-url]
 - [![React.js][react.js]][react-url]
 - [![CSS][CSS]][CSS-url]
 - [![HTML][HTML]][HTML-url]
-<!-- - [![Express.js][express-shield]][express-url]
-- [![Mysql][mysql-shield]][mysql-url] -->
-<!-- - [![Vue][vue.js]][vue-url]
-- [![Angular][angular.io]][angular-url]
-- [![Svelte][svelte.dev]][svelte-url]
-- [![Laravel][laravel.com]][laravel-url]
-- [![Bootstrap][bootstrap.com]][bootstrap-url]
-- [![JQuery][jquery.com]][jquery-url] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## Getting Started
-
-### Prerequisites
-
-Please use the below to set of instructions to get your project up and running
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
