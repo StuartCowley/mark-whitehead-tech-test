@@ -42,12 +42,12 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-    A week long mock technical test using the NASA api to bring back images of planets, stars and galaxies. This test was designed to give us a real world idea of what a prospective employer would look for. Simple search functionality has been implemented to bring back an array everythingn contained in the api relating to the keyword entered in the search query. This array is then filtered to show only the images. These images are then rendered in the browser window where CSS has been implemented to allow for scaling.
-    If a query entered onto the search bar doesnt match anything in the API, an error message will be displayed on the screen. 
+A week long mock technical test using the NASA api to bring back images of planets, stars and galaxies. This test was designed to give us a real world idea of what a prospective employer would look for. Simple search functionality has been implemented to bring back an array everythingn contained in the api relating to the keyword entered in the search query. This array is then filtered to show only the images. These images are then rendered in the browser window where CSS has been implemented
+to allow for scaling.
+If a query entered onto the search bar doesnt match anything in the API, an error message will be displayed on the screen. 
 
-    - 
-    - ![my screenshot](./src/images/fullsize.png)
-    - ![small screenshot](./src/images/425pxwidth.png)
+ - ![my screenshot](./src/images/fullsize.png)
+ - ![small screenshot](./src/images/425pxwidth.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
