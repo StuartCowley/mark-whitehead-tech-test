@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![Downloads][download-badge]][download-url]
 [![LastCommit][commit-badge]][commit-url]
 
 <!-- PROJECT LOGO -->
@@ -46,8 +45,8 @@ A week long mock technical test using the NASA api to bring back images of plane
 to allow for scaling.
 If a query entered onto the search bar doesnt match anything in the API, an error message will be displayed on the screen. 
 
-<img src="./src/images/425pxwidth.png" width="100px">
-<img src="./src/images/fullsize.png" width="100px">
+## Screenshots
+<img src="./src/images/425pxwidth.png" width="100px"><img src="./src/images/fullsize.png" width="100px">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
