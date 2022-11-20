@@ -69,7 +69,7 @@ The main testing Utility used was Jest which was installed with the project when
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Packages
+## Packages
 1. Axios.
 2. PropTypes.
 3. Babel-Jest
@@ -100,14 +100,14 @@ Please follow the instructions below to get the best out of the app.
    ```    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Usuage Examples
+## Usuage Examples
 The below example shows how the images are displayed when 'moon' is entered as a search query.
 
 <div align="center">
 <img src="./src/images/Screenshot 2022-11-20 at 19.26.05.png" width="400px">
 </div>
 
-### Further Work
+## Further Work
 Looking to the future there are a nuumber of upgrades i would like to implement if i have the chance to revisit the project.
 1. The ability so paginate the responses brought back from the API coupled with some type of filter accessed using a pre filled drop down menu with the available filter types.
 2. The ability to click on each image and reveal information about that specific image. This could be coupled with some type of animation that makes all the images on the screen disapear to be replaced with a body of text.
