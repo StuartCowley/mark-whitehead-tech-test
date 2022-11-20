@@ -21,20 +21,23 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#Packages and Depandancies">Packages and Dependancies</a></li>
+        <li><a href="#Screenshots">Screenshots</a></li>
+        <li><a href="#testing-utilities-used">Testign Utilities Used</a></li>
+        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#packages">Packages</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#testing">Testing</a></li>
+        <li><a href="#running-the-development-server">Running The Development Sever</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>\
+    <li><a href="#usage-examples">Usage Examples</a></li>\
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -45,8 +48,8 @@ A week long mock technical test using the NASA api to bring back images of plane
 to allow for scaling.
 If a query entered onto the search bar doesnt match anything in the API, an error message will be displayed on the screen. 
 
-## Screenshots
-The first screenshot on the left shows the rendered page when the page width goes below 430px. The second image to the left is in a standard browser window.
+### Screenshots
+The first screenshot on the left shows the standard browser window. The second image to the right is when the window goes below 430px.
 
 <div align="center">
 <img src="./src/images/fullsize.png" width="350px"><img src="./src/images/425pxwidth.png" width="350px">
@@ -54,12 +57,12 @@ The first screenshot on the left shows the rendered page when the page width goe
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Testing Utilities Used
+### Testing Utilities Used
 The main testing Utility used was Jest which was installed with the project when it was initialized with create-react-app. The React Testing Library was also used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Built With
+### Built With
 
 - [![React.js][react.js]][react-url]
 - [![Java-script][javascript-shield]][javascript-url]
@@ -107,7 +110,7 @@ The below example shows how the images are displayed when 'moon' is entered as a
 <img src="./src/images/Screenshot 2022-11-20 at 19.26.05.png" width="400px">
 </div>
 
-## Further Work
+## Roadmap
 Looking to the future there are a nuumber of upgrades i would like to implement if i have the chance to revisit the project.
 1. The ability so paginate the responses brought back from the API coupled with some type of filter accessed using a pre filled drop down menu with the available filter types.
 2. The ability to click on each image and reveal information about that specific image. This could be coupled with some type of animation that makes all the images on the screen disapear to be replaced with a body of text.
