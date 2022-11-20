@@ -46,17 +46,20 @@ to allow for scaling.
 If a query entered onto the search bar doesnt match anything in the API, an error message will be displayed on the screen. 
 
 ## Screenshots
+The first screenshot on the left shows the rendered page when the page width goes below 430px. The second image to the left is in a standard browser window.
+
 <div align="center">
-<img src="./src/images/425pxwidth.png" width="250px"><img src="./src/images/fullsize.png" width="250px">
+<img src="./src/images/fullsize.png" width="350px"><img src="./src/images/425pxwidth.png" width="350px">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Testing Utilities Used
+The main testing Utility used was Jest which was installed with the project when it was initialized with create-react-app. The React Testing Library was also used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Packages and Dependancies
+### Built With
 
 - [![Java-script][javascript-shield]][javascript-url]
 - [![Node.js][node-shield]][node-url]
@@ -66,13 +69,18 @@ If a query entered onto the search bar doesnt match anything in the API, an erro
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Getting Started
+### Packages
+1. Axios.
+2. PropTypes.
+3. Babel-Jest
 
+## Getting Started
+Please follow the instructions below to get the best out of the app. 
 ### Installation
 
 1. Clone the repo into your chosen file
    ```sh
-   git clone https://github.com/MaJaWh/weather-app
+   git clone https://github.com/MaJaWh/tech-test
    ```
 2. Install NPM packages
    ```sh
@@ -90,22 +98,27 @@ If a query entered onto the search bar doesnt match anything in the API, an erro
    ```sh
    npm start
    ```    
-   <!-- 3. Enter your API in `config.js`
-      ```js
-      const API_KEY = 'ENTER YOUR API';
-      ``` -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
+### Usuage Examples
+The below example shows how the images are displayed when 'moon' is entered as a search query.
 
-<!-- CONTACT -->
+<div align="center">
+<img src="./src/images/Screenshot 2022-11-20 at 19.26.05.png" width="400px">
+</div>
+
+### Further Work
+Looking to the future there are a nuumber of upgrades i would like to implement if i have the chance to revisit the project.
+1. The ability so paginate the responses brought back from the API coupled with some type of filter accessed using a pre filled drop down menu with the available filter types.
+2. The ability to click on each image and reveal information about that specific image. This could be coupled with some type of animation that makes all the images on the screen disapear to be replaced with a body of text.
+3. The abaility of the images to scale when the text size is increased. At the moment the images only scale when the browser window is adjusted.
+4.A button that changes the 'view'. Just images, images with text, one large image, etc.
 
 ## Contact
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle)
 
-Project Link: [https://github.com/MaJaWh/weather-app](https://github.com/MaJaWh/weather-app)
+Project Link: [https://github.com/MaJaWh/tech-test](https://github.com/MaJaWh/tech-test)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
