@@ -13,7 +13,7 @@ function App() {
           src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
           alt="nasaLogo"
         ></img>
-        <p className="app__text">Planet Image Search Engine</p>
+        <p className="app__text">Everything about NASA</p>
       </div>
       <Search setSearchResults={setSearchResults} />
       <SearchResults className="search-results" searchResults={searchResults} />

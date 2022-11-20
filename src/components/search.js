@@ -17,7 +17,7 @@ function Search(props) {
       <div className="search-form__outer-div">
         <form className="search-form" onSubmit={handleSubmit}>
           <input
-            placeholder="Choose your planet!"
+            placeholder="Search!"
             onChange={(e) => setValue(e.target.value)}
             className="search-input"
             type="text"
