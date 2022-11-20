@@ -46,7 +46,9 @@ to allow for scaling.
 If a query entered onto the search bar doesnt match anything in the API, an error message will be displayed on the screen. 
 
 ## Screenshots
-<img src="./src/images/425pxwidth.png" width="100px"><img src="./src/images/fullsize.png" width="100px">
+<div align="center">
+<img src="./src/images/425pxwidth.png" width="250px"><img src="./src/images/fullsize.png" width="250px">
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
