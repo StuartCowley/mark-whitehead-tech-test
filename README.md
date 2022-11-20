@@ -54,16 +54,16 @@ The first screenshot on the left shows the rendered page when the page width goe
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Testing Utilities Used
+## Testing Utilities Used
 The main testing Utility used was Jest which was installed with the project when it was initialized with create-react-app. The React Testing Library was also used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+## Built With
 
+- [![React.js][react.js]][react-url]
 - [![Java-script][javascript-shield]][javascript-url]
 - [![Node.js][node-shield]][node-url]
-- [![React.js][react.js]][react-url]
 - [![CSS][CSS]][CSS-url]
 - [![HTML][HTML]][HTML-url]
 
@@ -116,7 +116,7 @@ Looking to the future there are a nuumber of upgrades i would like to implement 
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle)
+Your Name - [@twitter_handle](https://twitter.com/@mjamesw2010)
 
 Project Link: [https://github.com/MaJaWh/tech-test](https://github.com/MaJaWh/tech-test)
 
