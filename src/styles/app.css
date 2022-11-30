@@ -1,0 +1,25 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.app__image-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.app__image {
+    margin: auto;
+    width: 60%;
+    height: auto;
+    padding: 0;
+}
+
+.app__text {
+    margin: auto;
+    height: 30px;
+    font-weight: bold;
+}

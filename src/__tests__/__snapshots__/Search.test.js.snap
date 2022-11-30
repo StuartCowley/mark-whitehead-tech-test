@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="search-form__outer-div"
+  >
+    <form
+      class="search-form"
+    >
+      <input
+        class="search-input"
+        placeholder="Choose your planet!"
+        type="text"
+      />
+      <button
+        class="search-btn"
+        type="submit"
+      >
+        Go!
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
